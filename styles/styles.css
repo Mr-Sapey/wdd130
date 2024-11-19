@@ -36,7 +36,7 @@ aside {
   padding: 1rem;
   background-color: #eee;
   color: #333;
-  text-align: right;
+  text-align: center;
 }
 
 aside {
@@ -54,5 +54,5 @@ p { padding: 0;}
 footer {
   margin-top: 15px;
   border-top: 1px solid #000;
-  text-align: right;
+  text-align: center;
 }
