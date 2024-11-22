@@ -1,0 +1,160 @@
+/* styles/wwr/rafting.css */
+
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+/* Header styles */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+/* Section styles */
+section {
+    padding: 20px;
+    margin: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+section h2 {
+    color: #333;
+}
+
+section img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 10px 0;
+}
+
+/* Footer styles */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+footer p {
+    margin: 0;
+}
+
+footer a {
+    margin: 0 10px;
+    display: inline-block;
+}
+
+footer img {
+    width: 24px;
+    height: 24px;
+}
+
+:root {
+    --primary-color: #3498db; /* Blue */
+    --secondary-color: #2ecc71; /* Green */
+    --accent-color: #e74c3c; /* Red */
+    --background-color: #f4f4f4; /* Light Gray */
+    --text-color: #333; /* Dark Gray */
+}
+
+body {
+    background-color: var(--background-color);
+    color: var(--text-color);
+}
+
+header {
+    background-color: var(--primary-color);
+    color: #fff;
+}
+
+a {
+    color: var(--accent-color);
+}
+
+button {
+    background-color: var(--secondary-color);
+    color: #fff;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: var(--primary-color);
+    font-family: 'Arial', sans-serif;
+    margin-bottom: 0.5em;
+}
+
+p {
+    color: var(--text-color);
+    font-family: 'Georgia', serif;
+    line-height: 1.6;
+    margin-bottom: 1em;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: var(--primary-color);
+    font-family: 'Arial', sans-serif;
+    margin-bottom: 0.5em;
+}
+
+p {
+    color: var(--text-color);
+    font-family: 'Georgia', serif;
+    line-height: 1.6;
+    margin-bottom: 1em;
+}
+
+/* Ejemplo de color adicional para los encabezados */
+h1 {
+    color: var(--secondary-color);
+}
+
+h2 {
+    color: var(--accent-color);
+}
+a img {
+    text-decoration: none;
+    border: none;
+}
+
+body {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.hero {
+    position: relative;
+    background-image: url('ruta/a/tu/imagen.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 500px; /* Ajusta la altura según sea necesario */
+}
+
+.hero h1,
+.hero article {
+    position: absolute;
+    color: white; /* Asegúrate de que el texto sea legible sobre la imagen */
+}
+
+/* Posiciona el h1 y el article según tus necesidades */
+.hero h1 {
+    top: 20px;
+    left: 20px;
+}
+
+.hero article {
+    bottom: 20px;
+    left: 20px;
+    right: 20px;
+}
