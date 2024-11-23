@@ -1,5 +1,13 @@
 /* styles/wwr/rafting.css */
 
+:root {
+    --primary-color: #3498db; /* Blue */
+    --secondary-color: #2ecc71; /* Green */
+    --accent-color: #e74c3c; /* Red */
+    --background-color: #f4f4f4; /* Light Gray */
+    --text-color: #333; /* Dark Gray */
+}
+
 /* General styles */
 body {
     font-family: Arial, sans-serif;
@@ -37,37 +45,6 @@ section img {
 }
 
 /* Footer styles */
-footer {
-    background-color: #333;
-    color: #fff;
-    text-align: center;
-    padding: 10px 0;
-    position: fixed;
-    width: 100%;
-    bottom: 0;
-}
-
-footer p {
-    margin: 0;
-}
-
-footer a {
-    margin: 0 10px;
-    display: inline-block;
-}
-
-footer img {
-    width: 24px;
-    height: 24px;
-}
-
-:root {
-    --primary-color: #3498db; /* Blue */
-    --secondary-color: #2ecc71; /* Green */
-    --accent-color: #e74c3c; /* Red */
-    --background-color: #f4f4f4; /* Light Gray */
-    --text-color: #333; /* Dark Gray */
-}
 
 body {
     background-color: var(--background-color);
@@ -157,4 +134,28 @@ body {
     bottom: 20px;
     left: 20px;
     right: 20px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+footer p {
+    margin: 0;
+}
+
+footer a {
+    margin: 0 10px;
+    display: inline-block;
+}
+
+footer img {
+    width: 24px;
+    height: 24px;
 }
