@@ -121,13 +121,13 @@ body {
 .hero h1,
 .hero article {
     position: absolute;
-    color: white; /* Asegúrate de que el texto sea legible sobre la imagen */
+    color: rgb(255, 255, 255); /* Asegúrate de que el texto sea legible sobre la imagen */
 }
 
 /* Posiciona el h1 y el article según tus necesidades */
 .hero h1 {
     top: 20px;
-    left: 20px;
+    right: 20px;
 }
 
 .hero article {
