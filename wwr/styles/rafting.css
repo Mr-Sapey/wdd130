@@ -120,7 +120,7 @@ body {
 
 .hero h1,
 .hero article {
-    position: relative;;
+    position: absolute ;
     color: rgb(255, 255, 255); /* Asegúrate de que el texto sea legible sobre la imagen */
 }
 
