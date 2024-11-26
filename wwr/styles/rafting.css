@@ -120,7 +120,7 @@ body {
 
 .hero h1,
 .hero article {
-    position: absolute ;
+    position: labsolute ;
     color: rgb(255, 255, 255); /* Asegúrate de que el texto sea legible sobre la imagen */
 }
 
@@ -159,3 +159,202 @@ footer img {
     width: 24px;
     height: 24px;
 }
+
+header {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    align-items: center;
+    padding: 10px;
+    background-color: #f8f9fa;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.navbar ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.navbar li {
+    margin-right: 20px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #333;
+}
+
+.navbar a:hover {
+    text-decoration: underline;
+}
+
+header {
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+    align-items: center;
+    padding: 10px;
+    background-color: #f8f9fa;
+}
+
+header img {
+    width: 50px;
+    height: auto;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+nav {
+    display: flex;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav li {
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* General Styles */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+/* Header Styles */
+header {
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+    align-items: center;
+    padding: 20px;
+    background-color: #004d40; /* Dark teal background */
+    color: white;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+header img {
+    width: 60px;
+    height: auto;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+/* Navigation Styles */
+nav {
+    display: flex;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav li {
+    margin-right: 30px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    padding: 5px 10px;
+    transition: background-color 0.3s ease;
+}
+
+nav a:hover {
+    background-color: #00796b; /* Teal hover effect */
+    border-radius: 5px;
+}
+
+.history-section {
+    display: grid;
+    grid-template-areas:
+      "icon text"
+      "image-placeholder image-placeholder";
+    grid-template-columns: 1fr 2fr;
+    gap: 20px; /* Adjust the gap as needed */
+  }
+  
+  .icon {
+    grid-area: icon;
+    background: purple; /* Just for visual reference */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .text {
+    grid-area: text;
+  }
+  
+  .image-placeholder {
+    grid-area: image-placeholder;
+    background: grey; /* Just for visual reference */
+  }
+
+  .adventures-section {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 10px; /* Adjust the gap as needed */
+  }
+  
+  figure {
+    margin: 0;
+    text-align: center;
+  }
+  
+  img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+  
+  figcaption {
+    margin-top: 8px;
+    font-size: 14px;
+    color: #333; /* Adjust the color as needed */
+  }
+
+  .footer {
+    display: flex;
+    justify-content: flex-end;
+    padding: 20px; /* Adjust as needed */
+    background-color: #f1f1f1; /* Adjust as needed */
+  }
+  
+  .social-icons {
+    display: flex;
+    gap: 10px; /* Adjust the gap as needed */
+  }
+  
+  .social-icons img {
+    width: 40px; /* Adjust the size as needed */
+    height: 40px; /* Adjust the size as needed */
+  }
