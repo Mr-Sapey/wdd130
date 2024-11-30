@@ -302,7 +302,14 @@ nav a:hover {
     gap: 20px; /* Adjust the gap as needed */
   }
   
-
+  .icon {
+    grid-area: icon;
+    background: purple; /* Just for visual reference */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
   .text {
     grid-area: text;
   }
