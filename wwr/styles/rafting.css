@@ -1,3 +1,4 @@
+link css to html
 header{
     display: grid;
     grid-template-columns: auto 1fr;
@@ -11,3 +12,8 @@ nav-bar ul{
     margin: 0;
     padding: 0;
 }
+
+nav-bar li{ 
+    margin-left: 20px;
+}
+
