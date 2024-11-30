@@ -48,7 +48,12 @@ h1 {
 }
 
 .history {
-    /* Add styles for the History section here */
+    display: flex;
+    text-decoration: underline;
+    font-size: small;
+    padding: 20px; 
+     
+  /* Add styles for the History section here */
 }
 
 .adventures {
