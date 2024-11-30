@@ -302,14 +302,7 @@ nav a:hover {
     gap: 20px; /* Adjust the gap as needed */
   }
   
-  .icon {
-    grid-area: icon;
-    background: purple; /* Just for visual reference */
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-  
+
   .text {
     grid-area: text;
   }
@@ -357,4 +350,4 @@ nav a:hover {
   .social-icons img {
     width: 40px; /* Adjust the size as needed */
     height: 40px; /* Adjust the size as needed */
-  }
+  } 
