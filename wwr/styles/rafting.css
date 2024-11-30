@@ -35,6 +35,18 @@ header {
 font-size: 1.5em;
 }
 
+.nav-bar ul {
+    display:flex;
+    justify-content: space-around;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+.nav-bar a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+}
 h1 {
     margin: 0;
     font-size: 24px;
