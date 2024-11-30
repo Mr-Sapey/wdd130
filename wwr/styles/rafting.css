@@ -52,7 +52,8 @@ h1 {
     text-decoration: underline;
     font-size: small;
     padding: 20px; 
-     
+    text-align: inherit;
+
   /* Add styles for the History section here */
 }
 
