@@ -49,7 +49,7 @@ h1 {
 
 .history {
     display: flex;
-    text-decoration: underline;
+    text-decoration: box;
     font-size: small;
     padding: 20px; 
     text-align: double;
