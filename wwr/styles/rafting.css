@@ -16,6 +16,8 @@ body {
 
 .hero {
     position: relative;
+    float: right;
+    margin: 0;
 }
 .logo {
     width: 60px;
