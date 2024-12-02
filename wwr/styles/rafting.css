@@ -11,17 +11,23 @@ body {
     font-family: 'Arial', sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f4f
-4f4;
+    background-color: #f4f;
 }
 
+.hero {
+    position: relative;
+}
 .logo {
     width: 60px;
     height: auto;
 }
 
+article{
+    position: absolute;
+}
 
 h1 {
+    position: absolute;
     margin: 0;
     font-size: 24px;
     text-align: center;
