@@ -33,7 +33,6 @@ h1 {
     margin: 0;
     font-size: 24px;
     text-align: center;
-    float: inline-end;
 }
 
 .nav-bar ul {
@@ -64,8 +63,6 @@ h1 {
     font-size: small;
     padding: 20px; 
     text-align: double;
-    float: left;
-    margin: 1;
 
   /* Add styles for the History section here */
 }
