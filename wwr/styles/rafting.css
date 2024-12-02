@@ -64,6 +64,8 @@ h1 {
     font-size: small;
     padding: 20px; 
     text-align: double;
+    float: left;
+    margin: 1;
 
   /* Add styles for the History section here */
 }
