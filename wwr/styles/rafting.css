@@ -25,11 +25,11 @@ body {
 }
 
 article{
-    position:-ms-page;
+    position:absolute;
 }
 
 h1 {
-    position:relative;
+    position:absolute;
     margin: 0;
     font-size: 24px;
     text-align:center;
