@@ -34,16 +34,10 @@ h1 {
     text-align: center;
 }
 
-section ul{
-    margin: 0;
-    font-size: 24;
-    text-align: end;
-}
-
 section{
     margin: 0;
     font-size: 24;
-    text-align: center;
+    text-align: bottom;
 
 }
 
