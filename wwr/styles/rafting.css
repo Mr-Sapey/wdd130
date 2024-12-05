@@ -36,8 +36,8 @@ h1 {
 }
 
 .nav-bar ul {
-    display: flex;
-    position:absolute;
+    display:grid;
+    position:relative;
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -61,7 +61,7 @@ h1 {
 .history {
     display: flex;
     text-decoration:underline;
-    font-size: small;
+    font-size:medium;
     padding: 20px; 
     text-align: double;
 
