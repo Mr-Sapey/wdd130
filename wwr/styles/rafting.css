@@ -33,6 +33,7 @@ header {
 .nav ul li{
     display: inline;
     margin: left 20px;
+    border: 2px solid white;
 }
 body {
     font-family: 'Arial', sans-serif;
