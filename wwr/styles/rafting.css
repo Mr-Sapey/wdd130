@@ -25,7 +25,7 @@ body {
 }
 
 article{
-    position: absolute;
+    position:static;
 }
 
 h1 {
