@@ -58,6 +58,8 @@ h1 {
 .history {
     position: relative;
     margin-top: auto;
+    display: flex;
+    padding: auto;
     /* Add styles for the History section here */
 }
 
