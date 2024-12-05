@@ -92,12 +92,12 @@ footer {
 
 footer .social-media {
     display: flex;
-    gap: 10px;
-    border:2px solid black;
+    gap: 50px;
+    border:10px solid black;
 }
 
 footer .social-media img {
     width: 30px;
     height: auto;
-    border: 2px solid black;
+    border: 10px solid black;
 }
