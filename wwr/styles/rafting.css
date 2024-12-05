@@ -33,6 +33,12 @@ h1 {
     text-align: center;
 }
 
+section{
+    margin: 0;
+    font-size: 24;
+    text-align: center;
+    
+}
 
 .nav-bar ul {
     display: flex;
