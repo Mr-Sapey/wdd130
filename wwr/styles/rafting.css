@@ -1,76 +1,55 @@
-header {
-    display: grid;
-    grid-template-columns: 1fr;
-    align-items: center;
-    padding: 10px;
-    background-color: #c8c8ed;
-    color: #fff;
-    border: 1px solid red; 
-}
-
-
-.logo {
-    grid-column: 1;
-    width: 60px;
-    height: auto;
-    border: 1px solid blue;
-}
-
-.nav{
-    grid-column: 2;
-    text-align: right;
-
-
-}
-
-.nav ul{
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    border: 2px solid white;
-}
-
-.nav ul li{
-    display: inline;
-    margin: left 20px;
-    border: 2px solid white;
-}
-
 body {
     font-family: 'Arial', sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f4f;
+    background-color: #f4f4f4;
 }
 
-.hero {
-    position: relative;
-    float: right;
-    margin: 0;
+header {
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+    align-items: center;
+    padding: 20px 50px;
+    background-color: #004d99;
+    color: #fff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
-article{
-    position:absolute;
+.logo {
+    width: 60px;
+    height: auto;
 }
 
 h1 {
-    position:absolute;
     margin: 0;
     font-size: 24px;
-    text-align:right;
-    border:2px solid #004d99;
+    text-align: center;
 }
 
+.nav-bar ul {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-bar li {
+    margin: 0 15px;
+}
+
+.nav-bar a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+    transition: color 0.3s;
+}
+
+.nav-bar a:hover {
+    color: #ffcc00;
+}
 
 .history {
-    display: flex;
-    text-decoration:underline;
-    font-size:medium;
-    padding: 20px; 
-    text-align: double;
-    border: 5px solid red;
-
-  /* Add styles for the History section here */
+    /* Add styles for the History section here */
 }
 
 .adventures {
@@ -82,13 +61,12 @@ h1 {
 
 .adventures figure {
     margin: 0;
-    text-align:center;
+    text-align: center;
 }
 
 .adventures img {
     width: 100%;
     height: auto;
-    
 }
 
 footer {
@@ -102,11 +80,9 @@ footer {
 footer .social-media {
     display: flex;
     gap: 10px;
-    border: 2px solid red;
 }
 
 footer .social-media img {
     width: 30px;
     height: auto;
-    border: 2px solid red;
 }
