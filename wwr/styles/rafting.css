@@ -54,28 +54,6 @@ h1 {
     text-align:left;
 }
 
-.nav-bar ul {
-    display:grid;
-    position:relative;
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-}
-
-.nav-bar li {
-    margin: 0 15px;
-}
-
-.nav-bar a {
-    text-decoration: none;
-    color: #fff;
-    font-size: 16px;
-    transition: color 0.3s;
-}
-
-.nav-bar a:hover {
-    color: #ffcc00;
-}
 
 .history {
     display: flex;
