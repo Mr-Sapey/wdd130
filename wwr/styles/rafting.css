@@ -22,7 +22,7 @@ ul{
     grid-template-columns: auto 1fr auto;
     align-items:right;
     border: 2px solid black;
-    position:relative;
+    position:-ms-page ;
 }
 .logo {
     width: 60px;
