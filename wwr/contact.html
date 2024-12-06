@@ -1,68 +1,136 @@
 <!DOCTYPE html>
-<html lang="en-US">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="discription" content=" welcome to our rafting adventure page where you can find imformations on adventure tours, trips to some great landmarks and many more. Stay updated with us with the latest updates on our upcoming trips and tours .">
-    <meta name="author" content="Sapey Ishameal">
-    <link rel="stylesheet" href="http://AdventureAndTours.com"><link rel="stylesheet" href="http://AdventureAndTours.com">
-    <link rel="stylesheet" href="http://AdventureAndTours.com" crossorigin`>
-    <link href="http://AdventureAndTours.com/css2?family=Rae
-    leway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="styles/styles.css">
-    <title>Sapey Ishmael | WDD 130</title>
+    <title>Contact Us</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+        }
+        .header, .footer {
+            background-color: #f4f4f4;
+            text-align: center;
+            padding: 10px 0;
+        }
+        .employee-profiles {
+            display: flex;
+            justify-content: space-around;
+            margin: 20px 0;
+        }
+        .employee-profile {
+            text-align: center;
+        }
+        .employee-profile img {
+            border-radius: 50%;
+            width: 100px;
+            height: 100px;
+        }
+        form {
+            display: flex;
+            flex-direction: column;
+        }
+        form input, form textarea, form button {
+            margin: 10px 0;
+            padding: 10px;
+            font-size: 1em;
+        }
+    </style>
 </head>
 <body>
-    <header>
-        <img src="images/logo.jpeg" alt="White Water Rafting" class="logo">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <nav>
-        <ul>  
-        <a href="[index.html]">Home</a> 
-        <a href="About Us.html">About Us</a>
-        <a href="Trips.html">Trips</a>
-        <a href="Contact.html">Contact Us</a>
-       </ul>
-    </nav>
-    <h1></h1>
-    </header>
-    <main>
-        <div class="hero">
-            <h1>Adventure And Tours</h1>
-            <img src="images/hero.jpg" alt="White Water Rafting" style="width: 100px;"> 
-            <article>
-                
-        </article>
-         </div>
-            <h2>History
-                <img src="images/happy client.jpg" alt="Happy Client" style="width: 100px;">
-                <p>The goals and missions of the tourism website are to promote local attractions, provide comprehensive information for trip planning, support local communities and businesses, encourage cultural exchange, and ensure visitor satisfaction. These objectives aim to enhance the overall travel experience while fostering economic growth and cultural understanding in the region.</p>
-            </h2>
-            
-        <section>
-            <h2>Adventure Awaits You!</h2>
-            <img src="images/Kakum canopy.jpg" alt="Beautiful senery at Kakum">
-            <img src="images/Canopy walkway.jpg" alt="Plesant day at Amedzofe canopy walk">
-            <img src="images/Mountain Adaklu.jpg" alt="Beautiful SENERY the evergreen Adaklu Mountain">
-            <img src="images/Mountain Gemi.jpg" alt="Site view of the elegant Mountain Gemi">
-            <img src="images/Wli waterfall.jpg" alt="Serene environment at the wli Waterfalls">
-        </section>
-    </main>
-    <footer>
-        <nav class="sociallinks">
-            <a href="http://facebook.com">
-            <img src="images/facebook.webp" alt="Facebook">
-        </a>
-            <a href="http://twitter.com">
-            <img src="images/twitter.webp" alt="Twitter">
-        </a>
-        <a href="http://instagram.com">
-            <img src="images/instagram.webp" alt="Instagram">
-        </a>
-    </footer>
-    <footer>
-        <p>&copy;©2024 Rafting Adventure. All rights reserved.</p>
-    </footer>
-</body>
-</html>
+    <div class="container">
+        <div class="header">
+            <h1>Contact Us</h1>
+        </div>
+
+        <div>
+            <h2>Company Information</h2>
+            <p>Address: 123 Rafting Road, Adventure Town, CO 80501</p>
+            <p>Phone: (123) 456-7890</p>
+            <p>Email: info@raftingcompany.com</p>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3151.8354345093747!2d144.95373531531685!3d-37.8162792797517!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad642af0f11fd81%3A0xf577b1b1c1e1e0e1!2s123%20Rafting%20Road%2C%20Adventure%20Town%2C%20CO%2080501!5e0!3m2!1sen!2sus!4v1600000000000!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+        </div>
+
+        <div class="employee-profiles">
+            <div class="employee-profile">
+                <img src="employee1.jpg" alt="Employee 1">
+                <p>John Doe, Guide</p>
+            </div>
+            <div class="employee-profile">
+                <img src="employee2.jpg" alt="Employee 2">
+                <p>Jane Smith, Manager</p>
+            </div>
+            <div class="employee-profile">
+                <img src="employee3.jpg" alt="Employee 3">
+                <p>Emily Johnson, Customer Service</p>
+            </div>
+        </div>
+
+        <form action="submit_form.php" method="post">
+            <label for="name">Your Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Your Email Address:</label>
+            <input type="email" id="email" name="email" required>
+
+            <p>Purpose of the Message:</p>
+            <input type="radio" id="general_inquiry" name="purpose" value="general_inquiry">
+            <label for="general_inquiry">General Inquiry</label><br>
+            <input type="radio" id="reservation_question" name="purpose" value="reservation_question">
+            <label for="reservation_question">Reservation Question</label><br>
+            <input type="radio" id="website_suggestion" name="purpose" value="website_suggestion">
+            <label for="website_suggestion">Website Suggestion</label>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+
+            <input type="checkbox" id="subscribe" name="subscribe">
+            <label for="subscribe">Please subscribe me to the monthly newsletter</label>
+
+            <button type="submit">Submit</button>
+        </form>
+
+        <div class="footer">
+            <p>&copy; 2024 Ra
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
