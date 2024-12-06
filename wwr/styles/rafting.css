@@ -9,7 +9,7 @@ body {
 header {
     display: grid;
     grid-template-columns: auto 1fr auto;
-    align-items:end;
+    align-items:baseline;
     padding: 20px 50px;
     background-color:white;
     color: #fff;
