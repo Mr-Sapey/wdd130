@@ -14,7 +14,7 @@ header {
     background-color:white;
     color: #fff;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    border: 1px solid blue;
+    border: 15px solid blue;
 }
 
 ul{
@@ -27,7 +27,7 @@ ul{
 .logo {
     width: 60px;
     height: auto;
-    border: 1px solid black;
+    border: 5px solid black;
 }
 
 
@@ -74,7 +74,7 @@ h2{
     margin: 0;
     font-size: 20px;
     text-align: left;
-    border: 20px solid black;
+    border: 10px solid black;
 }
 
 
