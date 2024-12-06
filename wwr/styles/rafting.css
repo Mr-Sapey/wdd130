@@ -37,8 +37,8 @@ h1 {
 section{
     margin: 0;
     font-size: 24;
-    text-align: bottom;
-
+    text-align: center;
+    position: relative;
 }
 
 .nav-bar ul {
