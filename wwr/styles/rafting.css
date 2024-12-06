@@ -17,6 +17,12 @@ header {
     border: 10px solid blue;
 }
 
+ul{
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+    align-items:right;
+    border: 2px solid black;
+}
 .logo {
     width: 60px;
     height: auto;
