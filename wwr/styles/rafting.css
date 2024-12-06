@@ -78,6 +78,42 @@ h2{
 }
 
 
+body {
+    font-family: Arial, sans-serif;
+}
+.container {
+    width: 80%;
+    margin: auto;
+}
+.header, .footer {
+    background-color: #f4f4f4;
+    text-align: center;
+    padding: 10px 0;
+}
+.employee-profiles {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0;
+}
+.employee-profile {
+    text-align: center;
+}
+.employee-profile img {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+}
+form {
+    display: flex;
+    flex-direction: column;
+}
+form input, form textarea, form button {
+    margin: 10px 0;
+    padding: 10px;
+    font-size: 1em;
+}
+
+
 .nav-bar a {
     text-decoration: none;
     color: #fff;
