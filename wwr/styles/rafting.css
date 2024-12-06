@@ -18,7 +18,6 @@ header {
 }
 
 ul{
-    grid: flex;
     display:flexbox;
     grid-template-columns: auto 1fr auto;
     align-items:right;
