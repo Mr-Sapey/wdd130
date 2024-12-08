@@ -35,11 +35,21 @@ article{
     position: absolute;
     border: 1px solid black;
     text-align: left;
+    top: 30;
+
+}
+
+.hero article img{
+    float: right;
 }
 h1 {
     margin: 0;
     font-size: 24px;
     text-align: center;
+    left: 0;
+    right: 0;
+    position: absolute;
+    top: 10;
 }
 
 main{
@@ -121,6 +131,16 @@ form input, form textarea, form button {
     transition: color 0.3s;
 }
 
+.hero{
+    position: relative;
+
+}
+
+.hero img{
+    display: block;
+    width: 100;
+    height: auto;
+}
 .nav-bar a:hover {
     color: #ffcc00;
 }
