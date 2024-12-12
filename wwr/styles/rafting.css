@@ -130,10 +130,10 @@ form input, form textarea, form button {
 
 .hero{
     position: relative;
-
 }
 
 .hero img{
+    text-align: end;
     display: block;
     width: 100;
     height: auto;
