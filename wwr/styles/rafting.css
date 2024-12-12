@@ -157,7 +157,7 @@ form input, form textarea, form button {
     grid-template-columns: repeat(5, 1fr);
     gap: 10px;
     padding: 20px;
-    border: 2px solid black;
+    border: 20px solid black;
 }
 
 .adventures figure {
