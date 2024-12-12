@@ -14,7 +14,7 @@ header {
     background-color:white;
     color: #fff;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    border: 5px solid rgb(157, 255, 0);
+    border: 5px solid rgba(0, 255, 229, 0.174);
 }
 
 ul{
@@ -27,7 +27,6 @@ ul{
 .logo {
     width: 60px;
     height: auto;
-    border: 2px solid black;
 }
 
 
@@ -84,7 +83,6 @@ h2{
     margin: 0;
     font-size: 20px;
     text-align: left;
-    border: 2px solid black;
 }
 
 
@@ -194,17 +192,14 @@ footer {
     padding: 2px 5px;
     background-color: #004d99;
     color: #fff;
-    border: 2px solid black;
 }
 
 footer .social-media {
     display: flexbox;
     gap: 1px;
-    border:2px solid black;
 }
 
 footer .social-media img {
     width: 3px;
     height: auto;
-    border: 2px solid black;
 }
