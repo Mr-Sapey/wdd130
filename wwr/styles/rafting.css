@@ -179,8 +179,14 @@ figcaption{
     display: flex;
 }
 
-fig_img{
-    
+figure img{
+    width: 200;
+
+}
+
+figure{
+    padding: 0;
+    margin: 10px;
 }
 footer {
     display: flex;
