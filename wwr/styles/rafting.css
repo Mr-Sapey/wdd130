@@ -171,6 +171,17 @@ form input, form textarea, form button {
     height: auto;
 }
 
+figcaption{
+    text-align: center;
+}
+
+.figure_flex{
+    display: flex;
+}
+
+fig_img{
+    
+}
 footer {
     display: flex;
     justify-content: flex-end;
