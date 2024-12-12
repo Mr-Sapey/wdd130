@@ -140,6 +140,7 @@ form input, form textarea, form button {
     display: block;
     width: 100;
     height: auto;
+    position: relative;
 }
 .nav-bar a:hover {
     color: #ffcc00;
