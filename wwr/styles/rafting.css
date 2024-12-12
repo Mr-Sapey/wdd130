@@ -32,7 +32,6 @@ ul{
 
 article{
     position: absolute;
-    border: 1px solid black;
     text-align: left;
     top: 30;
 
@@ -40,6 +39,7 @@ article{
 
 .hero article img{
     float: right;
+    border: 1px solid black;
 }
 h1 {
     margin: 0;
@@ -55,7 +55,6 @@ main{
     width: 600;
     margin: auto;
 }
-
 
 ing{
     width: 100;
