@@ -34,7 +34,7 @@ article{
     position: absolute;
     text-align: left;
     top: 30;
-
+    border: 1px solid rgba(255, 255, 255, 0.76);
 }
 
 .hero article img{
@@ -43,12 +43,12 @@ article{
 }
 h1 {
     margin: 0;
-    font-size: 24px;
+    font-size: 15px;
     text-align: center;
     left: 0;
     right: 0;
     position: absolute;
-    top: 10;
+    top: 30;
 }
 
 main{
