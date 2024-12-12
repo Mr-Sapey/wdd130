@@ -161,7 +161,6 @@ form input, form textarea, form button {
 
 .adventures figure {
     margin: 0;
-    border: 20px solid black;
 }
 
 .adventures img {
@@ -192,6 +191,7 @@ footer {
     padding: 2px 5px;
     background-color: #004d99;
     color: #fff;
+    border: 20px solid black;
 }
 
 footer .social-media {
