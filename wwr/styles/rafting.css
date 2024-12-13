@@ -23,7 +23,6 @@ ul{
     padding:0;
     grid-template-columns: auto 1fr auto;
     align-items:right;
-    border: 2px solid black;
     position:absolute;
 }
 .logo {
