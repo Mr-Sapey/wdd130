@@ -3,7 +3,7 @@ body {
     margin: 0;
     padding: 0;
     background-color: #f4f4f4;
-    border: 1px solid black;
+    border: 5px solid black;
 }
 
 header {
@@ -14,7 +14,7 @@ header {
     background-color:white;
     color: #fff;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    border: 5px solid rgba(0, 255, 229, 0.174);
+
 }
 
 ul{
@@ -189,7 +189,7 @@ footer {
     display: flex;
     justify-content: flex-end;
     padding: 2px 5px;
-    background-color: #004d99;
+    background-color: gray;
     color: #fff;
     border: 5px solid black;
 }
