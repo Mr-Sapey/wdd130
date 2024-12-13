@@ -18,7 +18,7 @@ header {
 }
 
 ul{
-    display:grid;
+    display:flex;
     grid-template-columns: auto 1fr auto;
     align-items:right;
     border: 2px solid black;
