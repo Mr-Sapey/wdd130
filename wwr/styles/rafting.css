@@ -19,7 +19,7 @@ header {
 
 ul{
     display:flex;
-
+    margin: 90;
     padding:0;
     grid-template-columns: auto 1fr auto;
     align-items:right;
