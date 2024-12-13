@@ -1,9 +1,15 @@
-body {
-    font-family: 'Arial', sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color:2px solid #f4f4f400;
-    border: 5px solid black;
+:root{
+    --primary-color: #3498db; /* Example primary color */
+    --secondary-color: #2ecc71; /* Example secondary color */
+    --accent-color: #e74c3c; /* Example accent color */
+    --background-color: #ecf0f1; /* Example background color */
+    --text-color: #2c3e50; /* Example text color */
+}
+
+body{
+    background-image: url("images/hero.jpeg");
+    background-size: cover;
+    background-position: center; 
 }
 
 header {
@@ -25,11 +31,67 @@ ul{
     align-items:right;
     position:absolute;
 }
+
 .logo {
     width: 100px;
     height: auto;
 }
 
+.logo img {
+    margin: 0 0.25rem 0 1rem;
+    width: 64px;
+    height: auto;
+   }
+
+.nav {
+    text-align: right;
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navigation {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    padding: 0;
+}
+
+.navigation li {
+    flex: 1 1 auto;
+}
+
+.navigation a {
+    display: block;
+    color: navy;
+    padding: 20px;
+    text-decoration: none;
+}
+
+.navigation a:hover {
+    color: tomato;
+    font-weight: 700;
+    text-decoration: underline;
+}
+
+
+h1 {
+    margin: 0;
+    font-size: 30px;
+    text-align: center;
+    left: 0;
+    right: 0;
+    position: absolute;
+    top: 30;
+    border: 0px solid black;
+}
+
+p{
+    color: var(--text-color);
+    margin-bottom: 1em;
+    line-height: 1.6;
+}
 
 article{
     position: absolute;
@@ -40,17 +102,33 @@ article{
 
 .hero article img{
     float: right;
+    margin-left: 20px; /* Add some space between the image and the text */
+    margin-bottom: 20px; /* Add some space below the image */
+    max-width: 50%; /* Ensure the image doesn't take up too much space */
     border: 0px solid black;
 }
-h1 {
-    margin: 0;
-    font-size: 30px;
-    text-align: center;
-    left: 0;
-    right: 0;
+
+a{
+    text-decoration: none;
+}
+
+.hero{
     position: absolute;
-    top: 30;
-    border: 0px solid black;
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.hero h1
+.hero article{
+    position: absolute;
+    color: #2c3e50;
+}
+.hero img{
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: auto;
 }
 
 main{
@@ -86,7 +164,6 @@ h2{
     font-size: 20px;
     text-align: left;
 }
-
 
 body {
     font-family: Arial, sans-serif;
