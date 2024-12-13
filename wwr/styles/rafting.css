@@ -11,7 +11,7 @@ header {
     grid-template-columns: auto 1fr auto;
     align-items:baseline;
     padding: 20px 50px;
-    background-color:white;
+    background-color: orangered;
     color: #fff;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     border: 5px solid rgba(0, 255, 229, 0.174);
