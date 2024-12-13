@@ -18,11 +18,11 @@ header {
 }
 
 ul{
-    display:flexbox;
+    display:grid;
     grid-template-columns: auto 1fr auto;
     align-items:right;
     border: 2px solid black;
-    position:static;
+    position:absolute;
 }
 .logo {
     width: 60px;
@@ -34,7 +34,7 @@ article{
     position: absolute;
     text-align: left;
     top: 30;
-    
+    border: 1px solid rgba(255, 255, 255, 0.76);
 }
 
 .hero article img{
