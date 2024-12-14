@@ -7,9 +7,10 @@
 }
 
 body{
-    background-image: url("images/hero.jpeg");
+    background-image: url("images/hero.jpg");
     background-size: cover;
     background-position: center; 
+    border: 2px solid black;
 }
 
 header {
@@ -17,10 +18,32 @@ header {
     grid-template-columns: auto 1fr auto;
     align-items:baseline;
     padding: 20px 50px;
-    background-color: orangered;
+    background-image: url('hero.jpg');
+    background-size: cover;
+    background-position: center;
+    background-color: rgb(233, 238, 239);
     color: #fff;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    border: 5px solid rgba(0, 255, 229, 0.174);
+}
+
+header img {
+    height: 50px;
+  }
+  
+  header nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+  }
+  
+  header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+  }
+
+section{
+    display: grid;
 }
 
 ul{
@@ -44,6 +67,7 @@ ul{
    }
 
 .nav {
+    display: flex;
     text-align: right;
     display: flex;
     list-style-type: none;
@@ -63,7 +87,7 @@ ul{
 }
 
 .navigation a {
-    display: block;
+    display: flex;
     color: navy;
     padding: 20px;
     text-decoration: none;
@@ -84,20 +108,20 @@ h1 {
     right: 0;
     position: absolute;
     top: 30;
-    border: 0px solid black;
+
 }
 
 p{
     color: var(--text-color);
     margin-bottom: 1em;
     line-height: 1.6;
+    position: relative;
 }
 
 article{
     position: absolute;
     text-align: left;
     top: 30;
-    border: 2px solid rgba(255, 255, 255, 0.76);
 }
 
 .hero article img{
@@ -105,7 +129,6 @@ article{
     margin-left: 20px; /* Add some space between the image and the text */
     margin-bottom: 20px; /* Add some space below the image */
     max-width: 50%; /* Ensure the image doesn't take up too much space */
-    border: 0px solid black;
 }
 
 a{
@@ -116,7 +139,7 @@ a{
     position: absolute;
     display: block;
     width: 100%;
-    height: auto;
+    height:auto;
 }
 
 .hero h1
@@ -136,15 +159,22 @@ main{
     margin: auto;
 }
 
-ing{
-    width: 100;
-}
-section{
-    margin: 0;
+.history{
+    margin:auto;
+    padding: 20px;
     font-size: 24;
     text-align: center;
     position: relative;
-    border: 2px solid black;
+}
+
+.history h2{
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+.history p{
+    font-size: 16px;
+    line-height: 1.5;
+  
 }
 
 .nav-bar ul {
@@ -165,40 +195,6 @@ h2{
     text-align: left;
 }
 
-body {
-    font-family: Arial, sans-serif;
-}
-.container {
-    width: 80%;
-    margin: auto;
-}
-.header, .footer {
-    background-color: #f4f4f4;
-    text-align: center;
-    padding: 10px 0;
-}
-.employee-profiles {
-    display: flex;
-    justify-content: space-around;
-    margin: 20px 0;
-}
-.employee-profile {
-    text-align: center;
-}
-.employee-profile img {
-    border-radius: 50%;
-    width: 100px;
-    height: 100px;
-}
-form {
-    display: flex;
-    flex-direction: column;
-}
-form input, form textarea, form button {
-    margin: 10px 0;
-    padding: 10px;
-    font-size: 1em;
-}
 
 
 .nav-bar a {
@@ -223,8 +219,8 @@ form input, form textarea, form button {
     color: #ffcc00;
 }
 
-.history {
-    position: relative;
+.history section{
+    position: absolute;
     margin-top: auto;
     display: flex;
     padding: auto;
@@ -245,41 +241,51 @@ form input, form textarea, form button {
 
 .adventures img {
     width: 100%;
-    height: auto;
+    height:auto;
+}
+
+figure{
+    display: flex;
+    flex-flow: column;
+    padding: 0;
+    width: 220px;
+    margin: auto;
+}
+
+img{
+    width: 200;
+    height: 250px;
 }
 
 figcaption{
     text-align: center;
+    background-color: #222;
+    color: #fff;
+    font: bold;
+    padding: 3px;
 }
 
 .figure_flex{
     display: flex;
 }
 
-figure img{
-    width: 200;
 
-}
 
-figure{
-    padding: 0;
-    margin: 10px;
-}
+
 footer {
     display: flex;
     justify-content: flex-end;
-    padding: 2px 5px;
+    padding: 1px;
     background-color: gray;
     color: #fff;
-    border: 5px solid black;
 }
 
 footer .social-media {
-    display: flexbox;
-    gap: 1px;
+    display: grid;
+    gap: 10px;
 }
 
 footer .social-media img {
-    width: 3px;
-    height: auto;
+    width: 10px;
+    height: 30px;
 }
