@@ -27,6 +27,45 @@
             <p>Expirience the ultimate rafting adventure with us!</p>
             <img src="images/hero.jpg" alt="White Water Rafting" style="width: 1200px;">
         </section> 
+        <section class="contact">
+            <h1>Contact Us</h1>
+            <p>If you have any questions or need more information about our rafting adventures, feel free to reach out to us. We're here to help you plan your next adventure!</p>
+            <div class="company-info">
+                <p><strong>Address:</strong> 123 River Road, Adventure Town, VR 45678, Ghana</p>
+                <p><strong>Phone:</strong> +233 123 456 789</p>
+                <p><strong>Email:</strong> info@riverthrills.com</p>
+            </div>
+
+            <div class="map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3153.835434509375!2d-122.41941548468187!3d37.77492927975956!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8085808c7e2b7b1f%3A0x2b0b4e4f4f4b7b0b!2s123%20River%20Road%2C%20Adventure%20Town%2C%20VR%2045678%2C%20Ghana!5e0!3m2!1sen!2sgh!4v1600000000000!5m2!1sen!2sgh" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+           
+        </section>
+        <div class="employee-profile">
+            <img src="images/Emma.jpg" alt="employee 1" class="profile-image" style="width: 200px">
+            <div class="caption">Mr Amegah - Software Engineer</div>
+        </div>
+        <div class="employee-profile">
+            <img src="images/Ishmael.jpg" alt="employee 2" class="profile-image" style="width: 200px">
+            <div class="caption">Mr Sapey - Product Manager</div>
+        </div>
+        <div class="employee-profile">
+            <img src="images/Wonder.jpg" alt="employee 3" class="profile-image"  style="width: 200px">
+            <div class="caption">Mr Nyadudzi - UX Designer</div>
+        </div>
+        <form action="submit_form.php" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+            
+            <button type="submit">Send Message</button>
+        </form>
+        <form action="#" method="post">         
         <section class="about">
             <h2>About our adventures</h2>
             <p>We offer a range of rafting experience suitable for all levels. Whether you`re a beginner or an expert, we have something for everyone.</p>
@@ -34,15 +73,52 @@
         <section class="book now">
             <h2>Book your trip</h2>
             <p>Ready to join us on the river? Book your adventure an make some unfogetable memories.</p>
+
+            <div class="form-group">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+                <p>Purpose of Message:</p>
+                <label>
+                    <input type="radio" name="purpose" value="General Inquiry" required>
+                    General Inquiry
+                </label>
+                <label>
+                    <input type="radio" name="purpose" value="Reservation Question">
+                    Reservation Question
+                </label>
+                <label>
+                    <input type="radio" name="purpose" value="Website Suggestion">
+                    Website Suggestion
+                </label>
+            </div>
+            <div class="form-group">
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+            </div>
+            <div class="form-group">
+                <label>
+                    <input type="checkbox" name="subscribe">
+                    Please subscribe me to the monthly newsletter
+                </label>
+            </div>
+            <div class="form-group">
+                <button type="submit">Submit</button>
+            </div>
+        </form>
         </section>
-            <article>  
-                <img src="images/rafting.jpg" alt="White Water Rafting" style="width: 200px;">  
-                <p>Our company was founded in the heart of adventure.
-                     Over the years, we have grown and evolved, always prioritizing 
-                     safety and excitement. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                      Integer nec odio. Praesent libero. Sed cursus ante dapibus diam.</p>           
-        </article>    
-    
+        <section>
+            <h2>History</h2>
+            <p>Our mission is to provide the best funtime experience.
+                Lorem ipsum dolor sit amet,Integer nec odio. we have grown and evolved, always prioritizing 
+                safety and excitement. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                 Integer nec odio. Praesent libero. Sed cursus ante dapibus diam.</p>
+        </section>  
         <section>
             <h2> ADVENTURE AWAITS YOU!</h2>
             <div class="figure_flex">
