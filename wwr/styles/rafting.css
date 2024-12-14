@@ -36,7 +36,7 @@ header img {
     gap: 20px;
   }
   
-  header nav ul li a {
+header nav ul li a {
     color: #fff;
     text-decoration: none;
     font-weight: bold;
@@ -136,23 +136,44 @@ a{
 }
 
 .hero{
-    position: absolute;
-    display: block;
-    width: 100%;
+    position: relative;
+    background-image: url("images/hero.jpg");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ecf0f1;
+    width: auto;
     height:auto;
+    text-align: center;
 }
 
-.hero h1
+
+.hero h1,
 .hero article{
     position: absolute;
-    color: #2c3e50;
 }
-.hero img{
-    position: absolute;
-    display: block;
-    width: 100%;
-    height: auto;
+
+
+.hero h1{
+    font-size: 4rem;
+    top: 10%;
+    left: 50%;
+    transform: translatex(-50%);
 }
+
+.hero article{
+    top: 40%;
+    left: 50%;
+    transform: translatex(-50%);
+    background-color: yellowgreen;
+    padding: 20px;
+    border-radius: 10px;
+    color: #fff;
+}
+
+
 
 main{
     width: 600;
@@ -196,7 +217,6 @@ h2{
 }
 
 
-
 .nav-bar a {
     text-decoration: none;
     color: #fff;
@@ -204,17 +224,6 @@ h2{
     transition: color 0.3s;
 }
 
-.hero{
-    position: relative;
-}
-
-.hero img{
-    text-align: end;
-    display: block;
-    width: 100;
-    height: auto;
-    position: relative;
-}
 .nav-bar a:hover {
     color: #ffcc00;
 }
@@ -228,7 +237,7 @@ h2{
 }
 
 .adventures {
-    display: grid;
+    display: flex;
     text-align: center;
     grid-template-columns: repeat(5, 1fr);
     gap: 10px;
@@ -252,10 +261,7 @@ figure{
     margin: auto;
 }
 
-img{
-    width: 200;
-    height: 250px;
-}
+
 
 figcaption{
     text-align: center;
